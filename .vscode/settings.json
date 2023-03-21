@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:my-app}/backend/database.db",
+            "name": "Database"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "NewDB",
+            "database": "${workspaceFolder:my-app}/backend/database.sqlite3"
+        }
+    ]
+}
