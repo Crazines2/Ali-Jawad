@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.bg {
+  background-image: url(https://images.wallpaperscraft.com/image/single/purple_white_background_65537_300x168.jpg);
+  background-size: cover;
+
+  overflow: hidden;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hem {
+  /* HEM */
+
+  position: absolute;
+  width: 91px;
+  height: 44px;
+  left: 750px;
+  top: 0px;
+
+  font-family: 'Noto Sans Kannada UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.kalender {
+  /* KALENDER */
+
+  position: absolute;
+  width: 215px;
+  height: 47px;
+  left: 878px;
+  top: 0px;
+  font-family: 'Noto Sans Kannada UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo {
+  /* TO DO */
+
+  position: absolute;
+  width: 132px;
+  height: 47px;
+  left: 1110px;
+  top: 0px;
+  font-family: 'Noto Sans Kannada UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.line1 {
+
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  left: 1170px;
+  top: 174px;
+
+  border: 5px solid #FFFFFF;
+  transform: rotate(-180deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line2 {
+
+ position: absolute;
+ width: 100px;
+ height: 0px;
+ left: 1170px;
+ top: 225px;
+
+ border: 5px solid #FFFFFF;
+ transform: rotate(-180deg);
 }
+
+.line3 {
+
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  left: 1170px;
+  top: 275px;
+ 
+  border: 5px solid #FFFFFF;
+  transform: rotate(-180deg);
+ }
